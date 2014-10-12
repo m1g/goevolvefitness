@@ -61,6 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
+    background-image: url('http://i.imgur.com/iJFGh20.png');
     background-color: #f7f7f7;
 }
 
@@ -113,6 +114,59 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary .badge {
+    color: #AFCB5A;
+    background-color: #fff;
+}
+
+/*////////// MODIFIED BUTTON PRIMARY //////////*/
+
+.btn-primary-pad {
+    border-color: #AFCB5A;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #AFCB5A;
+    padding-bottom: 3px;
+}
+
+
+.btn-primary-pad:hover,
+.btn-primary-pad:focus,
+.btn-primary-pad:active,
+.btn-primary-pad.active,
+.open .dropdown-toggle.btn-primary-pad {
+    border-color: #5a682e;
+    color: #fff;
+    background-color: #bad860;
+}
+
+.btn-primary-pad:active,
+.btn-primary-pad.active,
+.open .dropdown-toggle.btn-primary-pad {
+    background-image: none;
+}
+
+.btn-primary-pad.disabled,
+.btn-primary-pad[disabled],
+fieldset[disabled] .btn-primary-pad,
+.btn-primary-pad.disabled:hover,
+.btn-primary-pad[disabled]:hover,
+fieldset[disabled] .btn-primary-pad:hover,
+.btn-primary-pad.disabled:focus,
+.btn-primary-pad[disabled]:focus,
+fieldset[disabled] .btn-primary-pad:focus,
+.btn-primary-pad.disabled:active,
+.btn-primary-pad[disabled]:active,
+fieldset[disabled] .btn-primary-pad:active,
+.btn-primary-pad.disabled.active,
+.btn-primary-pad[disabled].active,
+fieldset[disabled] .btn-primary-pad.active {
+    border-color: #AFCB5A;
+    background-color: #AFCB5A;
+}
+
+.btn-primary-pad .badge {
     color: #AFCB5A;
     background-color: #fff;
 }
@@ -866,7 +920,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #AFCB5A;
-}
+
+/*////// MY OVERRIDE STYLES //////*/
 
 .float-right {
     float: right;
