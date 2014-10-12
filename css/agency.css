@@ -230,7 +230,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,cursive;
+    font-style: italic;
     color: #AFCB5A;
 }
 
