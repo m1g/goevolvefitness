@@ -321,6 +321,9 @@ fieldset[disabled] .btn-xl.active {
     .hidden-btn {
         display: none;
     }
+    .no-pad {
+        margin-right: 0px;
+    }
 }
 
 header {
