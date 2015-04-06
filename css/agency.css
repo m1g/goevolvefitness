@@ -286,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #bad860;
 }
 
-@media(min-width:768px) {
+@media(min-width:991px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -303,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
-    .navbar-default .navbar-nav>.active>a {
+    .navbar-default .navbar-nav>.active>a 
         border-radius: 3px;
     }
 
@@ -317,12 +317,9 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media(max-width:505px) {
-    .hidden-btn {
+@media(max-width:991px) {
+    .hidden-btn1 {
         display: none;
-    }
-    .no-pad {
-        margin-right: 0px;
     }
 }
 
@@ -361,7 +358,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+@media(min-width:991px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;

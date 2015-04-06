@@ -1,0 +1,12 @@
+@media(max-width:579px) {
+    a.btn.btn-xl.spacing{
+        margin-bottom: 20px;
+        margin-right: 0px; 
+    }
+}
+
+@media(max-width:991px) {
+    .hidden-btn1 {
+        display: none;
+    }
+}
