@@ -315,13 +315,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
-
-@media(max-width:991px) {
-    .hidden-btn1 {
-        display: none;
-    }
-}
 
 header {
     text-align: center;
