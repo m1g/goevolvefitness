@@ -10,3 +10,16 @@
         display: none;
     }
 }
+.padded {
+	padding-top: 10px;
+}
+.margined {
+	padding-top: 10px;
+}
+.blue-heading{
+	color: #4296CC;
+	font-weight: bold;
+}
+section#carousel {
+	padding: 0;
+}
